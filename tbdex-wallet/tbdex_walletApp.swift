@@ -11,7 +11,9 @@ import SwiftUI
 struct tbdex_walletApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack{
+                DidView()
+            }
         }
     }
 }
